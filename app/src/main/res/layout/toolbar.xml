@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+
+    <RelativeLayout
+        android:background="@drawable/toolbar_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--  back  -->
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="34dp"
+            android:id="@+id/return_to_home"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_baseline_search_24" />
+
+        <!--  Title Toolbar  -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Text Detector"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+        <!-- Check Done   -->
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="34dp"
+            android:id="@+id/attandance_student_pallet"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_baseline_home_24" />
+
+    </RelativeLayout>
+</RelativeLayout>

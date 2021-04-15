@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "564964336137",
+    "project_id": "text-recognition-app-5c3f5",
+    "storage_bucket": "text-recognition-app-5c3f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564964336137:android:3a9dc45a760d9223094ed8",
+        "android_client_info": {
+          "package_name": "com.rohita.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564964336137-ghmpq6oececgo82o12a9bvsl177gi9u0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn6P3s0v3aCTn_9yHlxUEsClWGPuwAn00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564964336137-ghmpq6oececgo82o12a9bvsl177gi9u0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
